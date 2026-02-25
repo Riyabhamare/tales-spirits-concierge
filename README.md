@@ -1,20 +1,43 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Tales & Spirits Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# 🍵 Tales & Spirits – AI Café Concierge
 
-This contains everything you need to run your app locally.
+A full-stack AI-powered Personal Concierge chatbot built for a café environment.  
+This project simulates a smart conversational commerce system with ordering, billing, reservations, and loyalty features.
 
-View your app in AI Studio: https://ai.studio/apps/9ddf8c6e-26f0-4690-8792-6aec225da330
+---
+
+##  Features
+
+- Smart ordering system with cart management
+- GST billing calculation (5%)
+- Table reservation system
+- Loyalty points mechanism
+- Personalized menu recommendations
+- Context-aware conversation flow
+
+---
+
+##  Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Node.js
+- Express
+- Google Gemini API
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites:
+- Node.js installed
 
+### Steps:
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
