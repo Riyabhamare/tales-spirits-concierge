@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f5f5f0;
+  color: #1a1a1a;
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.olive-button {
+  background-color: #5a5a40;
+  color: white;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  transition: all 0.2s ease;
+}
+
+.olive-button:hover {
+  background-color: #4a4a30;
+  transform: translateY(-1px);
+}
+
+.olive-button:active {
+  transform: translateY(0);
+}
+
+.chat-bubble-user {
+  background-color: #5a5a40;
+  color: white;
+  border-radius: 20px 20px 4px 20px;
+}
+
+.chat-bubble-model {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border-radius: 20px 20px 20px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
